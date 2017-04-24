@@ -172,7 +172,7 @@
 	branch = 8.0
 [submodule "sale-workflow"]
 	path = sale-workflow
-	url = https://github.com/OCA/sale-workflow.git
+	url = https://github.com/anodino-dev/sale-workflow.git
 	branch = 8.0
 [submodule "hr"]
 	path = hr
