@@ -180,7 +180,7 @@
 	branch = 8.0
 [submodule "odoo"]
 	path = odoo
-	url = https://github.com/odoo/odoo.git
+	url = https://github.com/anodino-dev/odoo.git
 	branch = 8.0
 [submodule "server-tools"]
 	path = server-tools
