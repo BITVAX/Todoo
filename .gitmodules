@@ -384,3 +384,6 @@
 [submodule "ingadhoc-reporting-engine"]
 	path = ingadhoc-reporting-engine
 	url = https://github.com/IJOL/reporting-engine.git
+[submodule "odoo-usability"]
+	path = odoo-usability
+	url = https://github.com/anodino-dev/odoo-usability
