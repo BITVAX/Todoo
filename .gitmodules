@@ -17,7 +17,7 @@
 [submodule "connector-magento"]
 	path = connector-magento
 	url = https://github.com/anodino-dev/connector-magento.git
-	branch = 8.0
+	branch = anodino_8.0
 [submodule "connector-odoo2odoo"]
 	path = connector-odoo2odoo
 	url = https://github.com/OCA/connector-odoo2odoo.git
@@ -173,7 +173,7 @@
 [submodule "sale-workflow"]
 	path = sale-workflow
 	url = https://github.com/anodino-dev/sale-workflow.git
-	branch = 8.0
+	branch = anodino_8.0
 [submodule "hr"]
 	path = hr
 	url = https://github.com/OCA/hr.git
@@ -181,7 +181,7 @@
 [submodule "odoo"]
 	path = odoo
 	url = https://github.com/anodino-dev/odoo.git
-	branch = 8.0
+	branch = anodino_8.0
 [submodule "server-tools"]
 	path = server-tools
 	url = https://github.com/OCA/server-tools.git
