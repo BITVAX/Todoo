@@ -371,7 +371,7 @@
 	branch = 8.0
 [submodule "odoomrp-wip"]
 	path = odoomrp-wip
-	url = https://github.com/IJOL/odoomrp-wip.git
+	url = https://github.com/anodino-dev/odoomrp-wip.git
 	branch = 8.0
 [submodule "odoomrp-utils"]
 	path = odoomrp-utils
