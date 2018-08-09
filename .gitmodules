@@ -329,10 +329,6 @@
 	path = vertical-association
 	url = https://github.com/OCA/vertical-association.git
 	branch = 8.0
-[submodule "vertical-medical"]
-	path = vertical-medical
-	url = https://github.com/OCA/vertical-medical.git
-	branch = 8.0
 [submodule "vertical-travel"]
 	path = vertical-travel
 	url = https://github.com/OCA/vertical-travel.git
