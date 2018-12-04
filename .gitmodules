@@ -181,6 +181,7 @@
 [submodule "odoo"]
 	path = odoo
 	url = https://github.com/anodino-dev/odoo.git
+	remote = origin
 	branch = anodino_8.0
 [submodule "server-tools"]
 	path = server-tools
@@ -380,6 +381,8 @@
 [submodule "ingadhoc-reporting-engine"]
 	path = ingadhoc-reporting-engine
 	url = https://github.com/IJOL/reporting-engine.git
+	branch = 8.0
 [submodule "odoo-usability"]
 	path = odoo-usability
 	url = https://github.com/anodino-dev/odoo-usability
+	branch = 8.0
