@@ -389,3 +389,4 @@
 [submodule "account-payment"]
 	path = account-payment
 	url = https://github.com/OCA/account-payment.git
+	branch = 8.0
