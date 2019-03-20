@@ -73,7 +73,7 @@
 [submodule "carrier-delivery"]
 	path = carrier-delivery
 	url = https://github.com/IJOL/carrier-delivery.git
-	branch = 8.0
+	branch = anodino_8.0
 [submodule "report-print-send"]
 	path = report-print-send
 	url = https://github.com/OCA/report-print-send.git
