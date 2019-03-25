@@ -1,0 +1,10 @@
+connector-redmine
+connector-sage
+connector-salesforce
+connector-telephony
+connector-woocommerce
+connector-accountedge
+connector-lims
+connector-magento-php-extension
+odoo-extra
+runbot-addons
