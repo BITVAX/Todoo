@@ -364,8 +364,12 @@
 [submodule "odoo-usability"]
 	path = odoo-usability
 	url = https://github.com/anodino-dev/odoo-usability
-    branch = 10.0
+	branch = 10.0
 [submodule "queue"]
 	path = queue
 	url = https://github.com/OCA/queue.git
-    branch = 10.0
+	branch = 10.0
+[submodule "openeducat_erp"]
+	path = openeducat_erp
+	url = https://github.com/anodino-dev/openeducat_erp.git
+	branch = 10.0
