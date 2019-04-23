@@ -337,10 +337,6 @@
 	path = vertical-hotel
 	url = https://github.com/OCA/vertical-hotel.git
 	branch = 10.0
-[submodule "vertical-education"]
-	path = vertical-education
-	url = https://github.com/OCA/vertical-education.git
-	branch = 10.0
 [submodule "vertical-edition"]
 	path = vertical-edition
 	url = https://github.com/OCA/vertical-edition.git
@@ -372,4 +368,12 @@
 [submodule "openeducat_erp"]
 	path = openeducat_erp
 	url = https://github.com/anodino-dev/openeducat_erp.git
+	branch = 10.0
+[submodule "account-payment"]
+	path = account-payment
+	url = https://github.com/OCA/account-payment.git
+	branch = 10.0
+[submodule "mis-builder"]
+	path = mis-builder
+	url = https://github.com/OCA/mis-builder.git
 	branch = 10.0
