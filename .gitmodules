@@ -390,3 +390,6 @@
 	path = account-payment
 	url = https://github.com/OCA/account-payment.git
 	branch = 8.0
+[submodule "mis-builder"]
+	path = mis-builder
+	url = https://github.com/OCA/mis-builder.git
