@@ -393,3 +393,5 @@
 [submodule "mis-builder"]
 	path = mis-builder
 	url = https://github.com/OCA/mis-builder.git
+	branch = 8.0
+
