@@ -368,7 +368,7 @@
 [submodule "openeducat_erp"]
 	path = openeducat_erp
 	url = https://github.com/anodino-dev/openeducat_erp.git
-	branch = 10.0
+	branch = anodino_100
 [submodule "account-payment"]
 	path = account-payment
 	url = https://github.com/OCA/account-payment.git
