@@ -380,8 +380,8 @@
 [submodule "edi"]
 	path = edi
 	url = https://github.com/OCA/edi.git
-	branch = 8.0
+	branch = 10.0
 [submodule "l10n-usa"]
 	path = l10n-usa
 	url = https://github.com/OCA/l10n-usa.git
-	branch = 8.0
+	branch = 10.0
