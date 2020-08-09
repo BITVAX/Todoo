@@ -1,7 +1,6 @@
 connector-redmine
 connector-sage
 connector-salesforce
-connector-telephony
 connector-woocommerce
 connector-accountedge
 connector-lims

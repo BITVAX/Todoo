@@ -72,8 +72,8 @@
 	branch = 10.0
 [submodule "carrier-delivery"]
 	path = carrier-delivery
-	url = https://github.com/OCA/carrier-delivery.git
-	branch = 10.0
+	url = https://github.com/anodino-dev/carrier-delivery.git
+	branch = trivax_100
 [submodule "report-print-send"]
 	path = report-print-send
 	url = https://github.com/OCA/report-print-send.git
@@ -181,7 +181,7 @@
 [submodule "odoo"]
 	path = odoo
 	url = https://github.com/anodino-dev/odoo.git
-	branch = 10.0
+	branch = trivax_100
 [submodule "server-tools"]
 	path = server-tools
 	url = https://github.com/OCA/server-tools.git
