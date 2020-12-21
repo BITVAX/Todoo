@@ -373,3 +373,9 @@
 	path = odoo-usability
 	url = https://github.com/anodino-dev/odoo-usability
     branch = 9.0
+[submodule "mis-builder"]
+	path = mis-builder
+	url = https://github.com/OCA/mis-builder
+[submodule "account-payment"]
+	path = account-payment
+	url = https://github.com/OCA/account-payment
