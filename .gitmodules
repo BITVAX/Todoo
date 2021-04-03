@@ -377,6 +377,8 @@
 	path = l10n-usa
 	url = https://github.com/OCA/l10n-usa.git
 	branch = 12.0
-[submodule "https://github.com/Smile-SA/odoo_addons.git"]
-	path = https://github.com/Smile-SA/odoo_addons.git
+[submodule "smile-addons"]
+	path = smile-addons
 	url = https://github.com/Smile-SA/odoo_addons.git
+	branch = 12.0
+
