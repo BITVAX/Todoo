@@ -380,5 +380,5 @@
 
 [submodule "smile-addons"]
 	path = smile-addons
-	url = https://github.com/Smile-SA/odoo_addons.git
+	url = https://github.com/anodino-dev/smile-addons.git
 	branch = 12.0
