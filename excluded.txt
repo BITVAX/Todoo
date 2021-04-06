@@ -7,3 +7,5 @@ connector-lims
 connector-magento-php-extension
 odoo-extra
 runbot-addons
+maintainer-tools
+pylint-odoo
