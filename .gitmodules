@@ -382,3 +382,8 @@
 	path = smile-addons
 	url = https://github.com/anodino-dev/smile-addons.git
 	branch = 12.0
+[submodule "server-ux"]
+	path = server-ux
+	url = https://github.com/OCA/server-ux.git
+	branch = 12.0
+	
