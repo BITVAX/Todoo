@@ -180,8 +180,8 @@
 	branch = 12.0
 [submodule "odoo"]
 	path = odoo
-	url = https://github.com/OCA/OCB.git
-	branch = 12.0
+	url = https://github.com/anodino-dev/odoo.git
+	branch = trivax_120
 [submodule "server-tools"]
 	path = server-tools
 	url = https://github.com/OCA/server-tools.git

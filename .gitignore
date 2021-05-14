@@ -1,3 +1,6 @@
 /.project
 /.pydevproject
 /venv/
+/.idea/
+/.settings/
+/.classpath
