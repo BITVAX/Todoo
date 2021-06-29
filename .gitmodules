@@ -386,4 +386,11 @@
 	path = server-ux
 	url = https://github.com/OCA/server-ux.git
 	branch = 12.0
-	
+[submodule "currency"]
+	path = currency
+	url = https://github.com/OCA/currency.git
+	branch = 12.0
+[submodule "storage"]
+	path = storage
+	url = https://github.com/OCA/storage.git
+	branch = 12.0
