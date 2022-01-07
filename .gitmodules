@@ -397,4 +397,7 @@
 	path = server-backend
 	url = https://github.com/OCA/server-backend.git
 	branch = 12.0
-
+[submodule "openeducat_erp"]
+	path = openeducat_erp
+	url = https://github.com/anodino-dev/openeducat_erp.git
+	branch = trivax_120
