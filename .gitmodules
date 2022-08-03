@@ -401,3 +401,7 @@
 	path = openeducat_erp
 	url = https://github.com/anodino-dev/openeducat_erp.git
 	branch = trivax_120
+[submodule "server-env"]
+	path = server-env
+	url = https://github.com/OCA/server-env.git
+	branch = 12.0
