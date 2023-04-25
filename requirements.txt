@@ -11,7 +11,7 @@ lxml
 xlrd
 xlsxwriter
 # generated from manifests external_dependencies
-pycups
+# pycups
 simplejson
 pyserial
 pyopenssl>=16.2.0
