@@ -5,7 +5,7 @@ mako
 odoorpc
 openpyxl
 openupgradelib
-sentry_sdk>=1.17.0
+# sentry_sdk>=1.17.0
 # generated from manifests external_dependencies
 lxml
 xlrd
