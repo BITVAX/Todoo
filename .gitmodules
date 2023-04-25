@@ -152,7 +152,7 @@
 	branch = 12.0
 [submodule "partner-contact"]
 	path = partner-contact
-	url = https://github.com/OCA/partner-contact.git
+	url = https://github.com/BITVAX/partner-contact.git
 	branch = 12.0
 [submodule "knowledge"]
 	path = knowledge
@@ -404,4 +404,19 @@
 [submodule "server-env"]
 	path = server-env
 	url = https://github.com/OCA/server-env.git
+	branch = 12.0
+[submodule "pos-addons"]
+	path = pos-addons
+	url = https://github.com/BITVAX/pos-addons.git
+	branch = 12.0
+[submodule "sync-addons"]
+	path = sync-addons
+	url = https://github.com/itpp-labs/sync-addons.git
+	branch = 12.0
+[submodule "multi-store"]
+	path = multi-store
+	url = https://github.com/ingadhoc/multi-store.git
+[submodule "acysos-addons"]
+	path = acysos-addons
+	url = https://github.com/BITVAX/acysos-addons.git
 	branch = 12.0
