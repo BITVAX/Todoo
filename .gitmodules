@@ -411,5 +411,5 @@
 	branch = 16.0
 [submodule "smile-addons"]
 	path = smile-addons
-	url = https://github.com/Smile-SA/odoo_addons.git
-	branch = 16.0
+	url = https://github.com/BITVAX/smile-addons.git
+	branch = 16.0-trivax
