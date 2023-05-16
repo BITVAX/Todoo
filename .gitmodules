@@ -416,7 +416,5 @@
 [submodule "multi-store"]
 	path = multi-store
 	url = https://github.com/ingadhoc/multi-store.git
-[submodule "acysos-addons"]
-	path = acysos-addons
-	url = https://github.com/BITVAX/acysos-addons.git
-	branch = 12.0
+    branch = 12.0
+
