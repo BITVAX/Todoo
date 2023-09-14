@@ -413,3 +413,7 @@
 	path = smile-addons
 	url = https://github.com/BITVAX/smile-addons.git
 	branch = 16.0-trivax
+[submodule "intrastat-extrastat"]
+	path = intrastat-extrastat
+	url = https://github.com/OCA/intrastat-extrastat.git
+	branch = 16.0
