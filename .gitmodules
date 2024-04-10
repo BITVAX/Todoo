@@ -16,7 +16,7 @@
 	branch = 12.0
 [submodule "connector-magento"]
 	path = connector-magento
-	url = https://github.com/anodino-dev/connector-magento.git
+	url = https://github.com/BITVAX/connector-magento.git
 	branch = trivax_120
 [submodule "connector-odoo2odoo"]
 	path = connector-odoo2odoo
@@ -418,3 +418,7 @@
 	url = https://github.com/ingadhoc/multi-store.git
     branch = 12.0
 
+[submodule "intrastat-extrastat"]
+	path = intrastat-extrastat
+	url = https://github.com/OCA/intrastat-extrastat.git
+	branch = 12.0
