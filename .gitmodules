@@ -389,30 +389,10 @@
 	path = server-backend
 	url = https://github.com/OCA/server-backend.git
 	branch = 13.0
-[submodule "openeducat_erp"]
-	path = openeducat_erp
-	url = https://github.com/anodino-dev/openeducat_erp.git
-	branch = 13.0
 [submodule "server-env"]
 	path = server-env
 	url = https://github.com/OCA/server-env.git
 	branch = 13.0
-[submodule "sync-addons"]
-	path = sync-addons
-	url = https://github.com/itpp-labs/sync-addons.git
-	branch = 13.0
-[submodule "multi-store"]
-	path = multi-store
-	url = https://github.com/ingadhoc/multi-store.git
-	branch = 13.0
-[submodule "pos-addons"]
-	path = pos-addons
-	url = https://github.com/itpp-labs/pos-addons.git
-	branch = 13.0
-[submodule "smile-addons"]
-	path = smile-addons
-	url = https://github.com/BITVAX/smile-addons.git
-	branch = 13.0-trivax
 [submodule "intrastat-extrastat"]
 	path = intrastat-extrastat
 	url = https://github.com/OCA/intrastat-extrastat.git
