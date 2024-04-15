@@ -72,7 +72,7 @@
 	branch = 12.0
 [submodule "carrier-delivery"]
 	path = carrier-delivery
-	url = https://github.com/anodino-dev/carrier-delivery.git
+	url = https://github.com/BITVAX/carrier-delivery.git
 	branch = trivax_120
 [submodule "report-print-send"]
 	path = report-print-send
