@@ -5,7 +5,7 @@ cachetools>=2.0.1
 email_validator
 simplejson
 pyserial
-pyopenssl>=16.2.0
+pyopenssl==24.0.0
 pyyaml==3.12 ; python_version < '3.7'
 pyyaml==3.13 ; python_version >= '3.7'
 websocket-client
