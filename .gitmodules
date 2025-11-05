@@ -92,7 +92,7 @@
 	branch = 16.0
 [submodule "project"]
 	path = project
-	url = https://github.com/OCA/project.git
+	url = https://github.com/BITVAX/project.git
 	branch = 16.0
 [submodule "project-reporting"]
 	path = project-reporting
@@ -133,7 +133,7 @@
 [submodule "product-attribute"]
 	path = product-attribute
 	url = https://github.com/BITVAX/product-attribute.git
-	branch = 16.0
+	branch = 16.0-trivax
 [submodule "web"]
 	path = web
 	url = https://github.com/BITVAX/web.git
@@ -181,7 +181,7 @@
 [submodule "odoo"]
 	path = odoo
 	url = https://github.com/BITVAX/OCB.git
-	branch = 16.0
+	branch = 16.0-verifactu
 [submodule "server-tools"]
 	path = server-tools
 	url = https://github.com/BITVAX/server-tools.git
@@ -436,4 +436,16 @@
 [submodule "brand"]
 	path = brand
 	url = https://github.com/OCA/brand.git
+	branch = 16.0
+[submodule "vertical-rental"]
+	path = vertical-rental
+	url = https://github.com/OCA/vertical-rental.git
+	branch = 16.0
+[submodule "fleet"]
+	path = fleet
+	url = https://github.com/OCA/fleet.git
+	branch = 16.0
+[submodule "stock-logistics-availability"]
+	path = stock-logistics-availability
+	url = https://github.com/OCA/stock-logistics-availability.git
 	branch = 16.0
