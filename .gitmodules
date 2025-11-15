@@ -17,7 +17,7 @@
 [submodule "connector-magento"]
 	path = connector-magento
 	url = https://github.com/BITVAX/connector-magento.git
-	branch = trivax_120
+	branch = 16.0
 [submodule "connector-odoo2odoo"]
 	path = connector-odoo2odoo
 	url = https://github.com/OCA/connector-odoo2odoo.git
