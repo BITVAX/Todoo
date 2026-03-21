@@ -1,34 +1,14 @@
-[submodule "connector-sage"]
-	path = connector-sage
-	url = https://github.com/OCA/connector-sage.git
-	branch = 16.0
-[submodule "connector-salesforce"]
-	path = connector-salesforce
-	url = https://github.com/OCA/connector-salesforce.git
-	branch = 16.0
 [submodule "connector-prestashop"]
 	path = connector-prestashop
 	url = https://github.com/OCA/connector-prestashop.git
-	branch = 16.0
-[submodule "connector-redmine"]
-	path = connector-redmine
-	url = https://github.com/OCA/connector-redmine.git
 	branch = 16.0
 [submodule "connector-magento"]
 	path = connector-magento
 	url = https://github.com/BITVAX/connector-magento.git
 	branch = 16.0
-[submodule "connector-odoo2odoo"]
-	path = connector-odoo2odoo
-	url = https://github.com/OCA/connector-odoo2odoo.git
-	branch = 16.0
 [submodule "connector-interfaces"]
 	path = connector-interfaces
 	url = https://github.com/OCA/connector-interfaces.git
-	branch = 16.0
-[submodule "connector-lims"]
-	path = connector-lims
-	url = https://github.com/OCA/connector-lims.git
 	branch = 16.0
 [submodule "connector-telephony"]
 	path = connector-telephony
@@ -49,10 +29,6 @@
 [submodule "bank-payment"]
 	path = bank-payment
 	url = https://github.com/OCA/bank-payment.git
-	branch = 16.0
-[submodule "connector-accountedge"]
-	path = connector-accountedge
-	url = https://github.com/OCA/connector-accountedge.git
 	branch = 16.0
 [submodule "community-data-files"]
 	path = community-data-files
@@ -102,17 +78,9 @@
 	path = product-variant
 	url = https://github.com/BITVAX/product-variant.git
 	branch = 16.0-fix-default-code-serialization
-[submodule "product-kitting"]
-	path = product-kitting
-	url = https://github.com/OCA/product-kitting.git
-	branch = 16.0
 [submodule "website"]
 	path = website
 	url = https://github.com/OCA/website.git
-	branch = 16.0
-[submodule "webkit-tools"]
-	path = webkit-tools
-	url = https://github.com/OCA/webkit-tools.git
 	branch = 16.0
 [submodule "l10n-spain"]
 	path = l10n-spain
@@ -194,10 +162,6 @@
 	path = account-analytic
 	url = https://github.com/OCA/account-analytic.git
 	branch = 16.0
-[submodule "sale-financial"]
-	path = sale-financial
-	url = https://github.com/OCA/sale-financial.git
-	branch = 16.0
 [submodule "account-budgeting"]
 	path = account-budgeting
 	url = https://github.com/OCA/account-budgeting.git
@@ -274,10 +238,6 @@
 	path = e-commerce
 	url = https://github.com/OCA/e-commerce.git
 	branch = 16.0
-[submodule "dotnet"]
-	path = dotnet
-	url = https://github.com/OCA/dotnet.git
-	branch = 16.0
 [submodule "geospatial"]
 	path = geospatial
 	url = https://github.com/OCA/geospatial.git
@@ -293,26 +253,19 @@
 [submodule "connector-magento-php-extension"]
 	path = connector-magento-php-extension
 	url = https://github.com/OCA/connector-magento-php-extension.git
-[submodule "connector-woocommerce"]
-	path = connector-woocommerce
-	url = https://github.com/OCA/connector-woocommerce.git
-	branch = 16.0
 [submodule "maintainer-quality-tools"]
 	path = maintainer-quality-tools
 	url = https://github.com/OCA/maintainer-quality-tools.git
 [submodule "maintainer-tools"]
 	path = maintainer-tools
 	url = https://github.com/OCA/maintainer-tools.git
+	branch = master
 [submodule "odoo-sphinx-autodoc"]
 	path = odoo-sphinx-autodoc
 	url = https://github.com/OCA/odoo-sphinx-autodoc.git
 [submodule "runbot-addons"]
 	path = runbot-addons
 	url = https://github.com/OCA/runbot-addons.git
-	branch = 16.0
-[submodule "vertical-isp"]
-	path = vertical-isp
-	url = https://github.com/OCA/vertical-isp.git
 	branch = 16.0
 [submodule "vertical-association"]
 	path = vertical-association
@@ -321,10 +274,6 @@
 [submodule "vertical-travel"]
 	path = vertical-travel
 	url = https://github.com/OCA/vertical-travel.git
-	branch = 16.0
-[submodule "vertical-ngo"]
-	path = vertical-ngo
-	url = https://github.com/OCA/vertical-ngo.git
 	branch = 16.0
 [submodule "vertical-hotel"]
 	path = vertical-hotel
@@ -337,10 +286,6 @@
 [submodule "vertical-construction"]
 	path = vertical-construction
 	url = https://github.com/OCA/vertical-construction.git
-	branch = 16.0
-[submodule "vertical-community"]
-	path = vertical-community
-	url = https://github.com/OCA/vertical-community.git
 	branch = 16.0
 [submodule "vertical-agriculture"]
 	path = vertical-agriculture
@@ -478,21 +423,9 @@
 	path = connector-cmis
 	url = https://github.com/OCA/connector-cmis.git
 	branch = 16.0
-[submodule "connector-infor"]
-	path = connector-infor
-	url = https://github.com/OCA/connector-infor.git
-	branch = 16.0
 [submodule "connector-jira"]
 	path = connector-jira
 	url = https://github.com/OCA/connector-jira.git
-	branch = 16.0
-[submodule "connector-lengow"]
-	path = connector-lengow
-	url = https://github.com/OCA/connector-lengow.git
-	branch = 16.0
-[submodule "connector-spscommerce"]
-	path = connector-spscommerce
-	url = https://github.com/OCA/connector-spscommerce.git
 	branch = 16.0
 [submodule "credit-control"]
 	path = credit-control
@@ -501,10 +434,6 @@
 [submodule "ddmrp"]
 	path = ddmrp
 	url = https://github.com/OCA/ddmrp.git
-	branch = 16.0
-[submodule "department"]
-	path = department
-	url = https://github.com/OCA/department.git
 	branch = 16.0
 [submodule "field-service"]
 	path = field-service
@@ -554,29 +483,13 @@
 	path = product-configurator
 	url = https://github.com/OCA/product-configurator.git
 	branch = 16.0
-[submodule "program"]
-	path = program
-	url = https://github.com/OCA/program.git
-	branch = 16.0
 [submodule "project-agile"]
 	path = project-agile
 	url = https://github.com/OCA/project-agile.git
 	branch = 16.0
-[submodule "pwa-builder"]
-	path = pwa-builder
-	url = https://github.com/OCA/pwa-builder.git
-	branch = 16.0
-[submodule "rest-api"]
-	path = rest-api
-	url = https://github.com/OCA/rest-api.git
-	branch = 16.0
 [submodule "rest-framework"]
 	path = rest-framework
 	url = https://github.com/OCA/rest-framework.git
-	branch = 16.0
-[submodule "role-policy"]
-	path = role-policy
-	url = https://github.com/OCA/role-policy.git
 	branch = 16.0
 [submodule "sale-blanket"]
 	path = sale-blanket
@@ -614,22 +527,6 @@
 	path = stock-logistics-orderpoint
 	url = https://github.com/OCA/stock-logistics-orderpoint.git
 	branch = 16.0
-[submodule "vertical-education"]
-	path = vertical-education
-	url = https://github.com/OCA/vertical-education.git
-	branch = 16.0
-[submodule "vertical-medical"]
-	path = vertical-medical
-	url = https://github.com/OCA/vertical-medical.git
-	branch = 16.0
-[submodule "vertical-realestate"]
-	path = vertical-realestate
-	url = https://github.com/OCA/vertical-realestate.git
-	branch = 16.0
-[submodule "wallet"]
-	path = wallet
-	url = https://github.com/OCA/wallet.git
-	branch = 16.0
 [submodule "web-api"]
 	path = web-api
 	url = https://github.com/OCA/web-api.git
@@ -638,15 +535,7 @@
 	path = web-api-contrib
 	url = https://github.com/OCA/web-api-contrib.git
 	branch = 16.0
-[submodule "webhook"]
-	path = webhook
-	url = https://github.com/OCA/webhook.git
-	branch = 16.0
 [submodule "website-cms"]
 	path = website-cms
 	url = https://github.com/OCA/website-cms.git
-	branch = 16.0
-[submodule "website-themes"]
-	path = website-themes
-	url = https://github.com/OCA/website-themes.git
 	branch = 16.0
