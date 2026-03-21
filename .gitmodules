@@ -17,7 +17,7 @@
 [submodule "connector-magento"]
 	path = connector-magento
 	url = https://github.com/BITVAX/connector-magento.git
-	branch = trivax_120
+	branch = 16.0
 [submodule "connector-odoo2odoo"]
 	path = connector-odoo2odoo
 	url = https://github.com/OCA/connector-odoo2odoo.git
@@ -100,8 +100,8 @@
 	branch = 16.0
 [submodule "product-variant"]
 	path = product-variant
-	url = https://github.com/OCA/product-variant.git
-	branch = 16.0
+	url = https://github.com/BITVAX/product-variant.git
+	branch = 16.0-fix-default-code-serialization
 [submodule "product-kitting"]
 	path = product-kitting
 	url = https://github.com/OCA/product-kitting.git
@@ -148,16 +148,16 @@
 	branch = 16.0
 [submodule "operating-unit"]
 	path = operating-unit
-	url = https://github.com/OCA/operating-unit.git
-	branch = 16.0
+	url = https://github.com/BITVAX/operating-unit.git
+	branch = 16.0-fix-journal-access-denied
 [submodule "partner-contact"]
 	path = partner-contact
 	url = https://github.com/BITVAX/partner-contact.git
 	branch = 16.0
 [submodule "knowledge"]
 	path = knowledge
-	url = https://github.com/OCA/knowledge.git
-	branch = 16.0
+	url = https://github.com/BITVAX/knowledge.git
+	branch = 16.0-fix-document-page-reference-owl
 [submodule "management-system"]
 	path = management-system
 	url = https://github.com/OCA/management-system.git
@@ -306,9 +306,6 @@
 [submodule "odoo-sphinx-autodoc"]
 	path = odoo-sphinx-autodoc
 	url = https://github.com/OCA/odoo-sphinx-autodoc.git
-[submodule "pylint-odoo"]
-	path = pylint-odoo
-	url = https://github.com/OCA/pylint-odoo.git
 [submodule "runbot-addons"]
 	path = runbot-addons
 	url = https://github.com/OCA/runbot-addons.git
@@ -383,8 +380,8 @@
 	branch = 16.0
 [submodule "storage"]
 	path = storage
-	url = https://github.com/OCA/storage.git
-	branch = 16.0
+	url = https://github.com/BITVAX/storage.git
+	branch = 16.0-bitvax-migrations
 [submodule "server-backend"]
 	path = server-backend
 	url = https://github.com/OCA/server-backend.git
@@ -448,4 +445,208 @@
 [submodule "stock-logistics-availability"]
 	path = stock-logistics-availability
 	url = https://github.com/OCA/stock-logistics-availability.git
+	branch = 16.0
+[submodule "calendar"]
+	path = calendar
+	url = https://github.com/OCA/calendar.git
+	branch = 16.0
+[submodule "sign"]
+	path = sign
+	url = https://github.com/OCA/sign.git
+	branch = 16.0
+[submodule "dms"]
+	path = dms
+	url = https://github.com/OCA/dms.git
+	branch = 16.0
+[submodule "account-reconcile"]
+	path = account-reconcile
+	url = https://github.com/OCA/account-reconcile.git
+	branch = 16.0
+[submodule "agreement"]
+	path = agreement
+	url = https://github.com/OCA/agreement.git
+	branch = 16.0
+[submodule "ai"]
+	path = ai
+	url = https://github.com/OCA/ai.git
+	branch = 16.0
+[submodule "automation"]
+	path = automation
+	url = https://github.com/OCA/automation.git
+	branch = 16.0
+[submodule "connector-cmis"]
+	path = connector-cmis
+	url = https://github.com/OCA/connector-cmis.git
+	branch = 16.0
+[submodule "connector-infor"]
+	path = connector-infor
+	url = https://github.com/OCA/connector-infor.git
+	branch = 16.0
+[submodule "connector-jira"]
+	path = connector-jira
+	url = https://github.com/OCA/connector-jira.git
+	branch = 16.0
+[submodule "connector-lengow"]
+	path = connector-lengow
+	url = https://github.com/OCA/connector-lengow.git
+	branch = 16.0
+[submodule "connector-spscommerce"]
+	path = connector-spscommerce
+	url = https://github.com/OCA/connector-spscommerce.git
+	branch = 16.0
+[submodule "credit-control"]
+	path = credit-control
+	url = https://github.com/OCA/credit-control.git
+	branch = 16.0
+[submodule "ddmrp"]
+	path = ddmrp
+	url = https://github.com/OCA/ddmrp.git
+	branch = 16.0
+[submodule "department"]
+	path = department
+	url = https://github.com/OCA/department.git
+	branch = 16.0
+[submodule "field-service"]
+	path = field-service
+	url = https://github.com/OCA/field-service.git
+	branch = 16.0
+[submodule "hr-attendance"]
+	path = hr-attendance
+	url = https://github.com/OCA/hr-attendance.git
+	branch = 16.0
+[submodule "hr-expense"]
+	path = hr-expense
+	url = https://github.com/OCA/hr-expense.git
+	branch = 16.0
+[submodule "hr-holidays"]
+	path = hr-holidays
+	url = https://github.com/OCA/hr-holidays.git
+	branch = 16.0
+[submodule "infrastructure"]
+	path = infrastructure
+	url = https://github.com/OCA/infrastructure.git
+	branch = 16.0
+[submodule "interface-github"]
+	path = interface-github
+	url = https://github.com/OCA/interface-github.git
+	branch = 16.0
+[submodule "iot"]
+	path = iot
+	url = https://github.com/OCA/iot.git
+	branch = 16.0
+[submodule "mail"]
+	path = mail
+	url = https://github.com/OCA/mail.git
+	branch = 16.0
+[submodule "maintenance"]
+	path = maintenance
+	url = https://github.com/OCA/maintenance.git
+	branch = 16.0
+[submodule "module-composition-analysis"]
+	path = module-composition-analysis
+	url = https://github.com/OCA/module-composition-analysis.git
+	branch = 16.0
+[submodule "pms"]
+	path = pms
+	url = https://github.com/OCA/pms.git
+	branch = 16.0
+[submodule "product-configurator"]
+	path = product-configurator
+	url = https://github.com/OCA/product-configurator.git
+	branch = 16.0
+[submodule "program"]
+	path = program
+	url = https://github.com/OCA/program.git
+	branch = 16.0
+[submodule "project-agile"]
+	path = project-agile
+	url = https://github.com/OCA/project-agile.git
+	branch = 16.0
+[submodule "pwa-builder"]
+	path = pwa-builder
+	url = https://github.com/OCA/pwa-builder.git
+	branch = 16.0
+[submodule "rest-api"]
+	path = rest-api
+	url = https://github.com/OCA/rest-api.git
+	branch = 16.0
+[submodule "rest-framework"]
+	path = rest-framework
+	url = https://github.com/OCA/rest-framework.git
+	branch = 16.0
+[submodule "role-policy"]
+	path = role-policy
+	url = https://github.com/OCA/role-policy.git
+	branch = 16.0
+[submodule "sale-blanket"]
+	path = sale-blanket
+	url = https://github.com/OCA/sale-blanket.git
+	branch = 16.0
+[submodule "sale-channel"]
+	path = sale-channel
+	url = https://github.com/OCA/sale-channel.git
+	branch = 16.0
+[submodule "sale-prebook"]
+	path = sale-prebook
+	url = https://github.com/OCA/sale-prebook.git
+	branch = 16.0
+[submodule "sale-promotion"]
+	path = sale-promotion
+	url = https://github.com/OCA/sale-promotion.git
+	branch = 16.0
+[submodule "search-engine"]
+	path = search-engine
+	url = https://github.com/OCA/search-engine.git
+	branch = 16.0
+[submodule "server-auth"]
+	path = server-auth
+	url = https://github.com/OCA/server-auth.git
+	branch = 16.0
+[submodule "shift-planning"]
+	path = shift-planning
+	url = https://github.com/OCA/shift-planning.git
+	branch = 16.0
+[submodule "stock-logistics-interfaces"]
+	path = stock-logistics-interfaces
+	url = https://github.com/OCA/stock-logistics-interfaces.git
+	branch = 16.0
+[submodule "stock-logistics-orderpoint"]
+	path = stock-logistics-orderpoint
+	url = https://github.com/OCA/stock-logistics-orderpoint.git
+	branch = 16.0
+[submodule "vertical-education"]
+	path = vertical-education
+	url = https://github.com/OCA/vertical-education.git
+	branch = 16.0
+[submodule "vertical-medical"]
+	path = vertical-medical
+	url = https://github.com/OCA/vertical-medical.git
+	branch = 16.0
+[submodule "vertical-realestate"]
+	path = vertical-realestate
+	url = https://github.com/OCA/vertical-realestate.git
+	branch = 16.0
+[submodule "wallet"]
+	path = wallet
+	url = https://github.com/OCA/wallet.git
+	branch = 16.0
+[submodule "web-api"]
+	path = web-api
+	url = https://github.com/OCA/web-api.git
+	branch = 16.0
+[submodule "web-api-contrib"]
+	path = web-api-contrib
+	url = https://github.com/OCA/web-api-contrib.git
+	branch = 16.0
+[submodule "webhook"]
+	path = webhook
+	url = https://github.com/OCA/webhook.git
+	branch = 16.0
+[submodule "website-cms"]
+	path = website-cms
+	url = https://github.com/OCA/website-cms.git
+	branch = 16.0
+[submodule "website-themes"]
+	path = website-themes
+	url = https://github.com/OCA/website-themes.git
 	branch = 16.0
