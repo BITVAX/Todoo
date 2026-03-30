@@ -333,7 +333,7 @@
 	branch = 18.0
 [submodule "openeducat_erp"]
 	path = openeducat_erp
-	url = https://github.com/anodino-dev/openeducat_erp.git
+	url = https://github.com/BITVAX/openeducat_erp.git
 	branch = 18.0
 [submodule "server-env"]
 	path = server-env
