@@ -1,5 +1,5 @@
 # Aggregated requirements for Todoo 18.0
-# Generated 2026-03-30 from OCB + all OCA submodules
+# Generated 2026-03-30 from OCB + OCA submodules with content
 
 # === OCB core ===
 # The officially supported versions of the following packages are their
@@ -213,10 +213,6 @@ zeep
 # generated from manifests external_dependencies
 ach
 python-stdnum
-
-# === maintainer-quality-tools/ ===
-# Legacy repo — most deps already covered by OCB core
-# Removed: pyyaml==5.4 (incompatible with Python 3.10+), unittest2, six
 
 # === multi-store/ ===
 
