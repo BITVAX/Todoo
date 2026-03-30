@@ -236,8 +236,7 @@ requests
 # generated from manifests external_dependencies
 mock
 openpyxl
-py3o.formats
-py3o.template
+# py3o.formats and py3o.template removed — log_colorizer dep uses use_2to3 (broken with modern setuptools)
 
 # === report-print-send/ ===
 # generated from manifests external_dependencies
