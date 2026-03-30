@@ -215,18 +215,8 @@ ach
 python-stdnum
 
 # === maintainer-quality-tools/ ===
-simplejson
-pyserial
-pyopenssl>=16.2.0
-pyyaml==3.12 ; python_version < '3.7'
-pyyaml==5.4 ; python_version >= '3.7'
-websocket-client
-unittest2
-six
-
-# Supports code-block for module/README.rst
-# More info about: https://github.com/OCA/maintainer-quality-tools/issues/568
-pygments
+# Legacy repo — most deps already covered by OCB core
+# Removed: pyyaml==5.4 (incompatible with Python 3.10+), unittest2, six
 
 # === multi-store/ ===
 
