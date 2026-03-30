@@ -1,17 +1,220 @@
+# Aggregated requirements for Todoo 18.0
+# Generated 2026-03-30 from OCB + all OCA submodules
+
+# === OCB core ===
+# The officially supported versions of the following packages are their
+# python3-* equivalent distributed in Ubuntu 24.04 and Debian 12
+asn1crypto==1.4.0 ; python_version < '3.11'
+asn1crypto==1.5.1 ; python_version >= '3.11'
+Babel==2.9.1 ; python_version < '3.11'  # min version = 2.6.0 (Focal with security backports)
+Babel==2.10.3 ; python_version >= '3.11' and python_version < '3.13'
+Babel==2.17.0 ; python_version >= '3.13'
+cbor2==5.4.2.post1 ; python_version < '3.11'  # (Jammy)
+cbor2==5.4.6 ; python_version >= '3.11' and python_version < '3.12'  # (Bookworm)
+cbor2==5.6.2 ; python_version >= '3.12'
+chardet==4.0.0 ; python_version < '3.11'  # (Jammy)
+chardet==5.2.0 ; python_version >= '3.11'
+cryptography==3.4.8; python_version < '3.12'  # incompatibility between pyopenssl 19.0.0 and cryptography>=37.0.0
+cryptography==42.0.8 ; python_version >= '3.12'  # (Noble) min 41.0.7, pinning 42.0.8 for security fixes
+decorator==4.4.2  ; python_version < '3.11'  # (Jammy)
+decorator==5.1.1  ; python_version >= '3.11'
+docutils==0.17 ; python_version < '3.11'  # (Jammy)
+docutils==0.20.1 ; python_version >= '3.11'
+freezegun==1.1.0 ; python_version < '3.11'  # (Jammy)
+freezegun==1.2.1 ; python_version >= '3.11' and python_version < '3.13'
+freezegun==1.5.1 ; python_version >= '3.13'
+geoip2==2.9.0
+gevent==21.8.0 ; sys_platform != 'win32' and python_version == '3.10'  # (Jammy)
+gevent==22.10.2; sys_platform != 'win32' and python_version > '3.10' and python_version < '3.12'
+gevent==24.2.1 ; sys_platform != 'win32' and python_version >= '3.12' and python_version < '3.13'  # (Noble)
+gevent==24.11.1 ; sys_platform != 'win32' and python_version >= '3.13'  # (Trixie)
+greenlet==1.1.2 ; sys_platform != 'win32' and python_version == '3.10'  # (Jammy)
+greenlet==2.0.2 ; sys_platform != 'win32' and python_version > '3.10' and python_version < '3.12'
+greenlet==3.0.3 ; sys_platform != 'win32' and python_version >= '3.12' and python_version < '3.13' # (Noble)
+greenlet==3.1.1 ; sys_platform != 'win32' and python_version >= '3.13'  # (Trixie)
+idna==2.10 ; python_version < '3.12'  # requests 2.25.1 depends on idna<3 and >=2.5
+idna==3.6 ; python_version >= '3.12'
+Jinja2==3.0.3 ; python_version <= '3.10'
+Jinja2==3.1.2 ; python_version > '3.10'
+libsass==0.20.1 ; python_version < '3.11'
+libsass==0.22.0 ; python_version >= '3.11'  # (Noble) Mostly to have a wheel package
+lxml==4.8.0 ; python_version <= '3.10'
+lxml==4.9.3 ; python_version > '3.10' and python_version < '3.12' # min 4.9.2, pinning 4.9.3 because of missing wheels for darwin in 4.9.3
+lxml==5.2.1; python_version >= '3.12' # (Noble - removed html clean)
+lxml-html-clean; python_version >= '3.12' # (Noble - removed from lxml, unpinned for futur security patches)
+MarkupSafe==2.0.1 ; python_version <= '3.10'
+MarkupSafe==2.1.2 ; python_version > '3.10' and python_version < '3.12'
+MarkupSafe==2.1.5 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
+num2words==0.5.10 ; python_version < '3.12'  # (Jammy / Bookworm)
+num2words==0.5.13 ; python_version >= '3.12' 
+ofxparse==0.21
+openpyxl==3.0.9 ; python_version < '3.12'
+openpyxl==3.1.2 ; python_version >= '3.12'
+passlib==1.7.4 # min version = 1.7.2 (Focal with security backports)
+Pillow==9.0.1 ; python_version <= '3.10'
+Pillow==9.4.0 ; python_version > '3.10' and python_version < '3.12'
+Pillow==10.2.0 ; python_version >= '3.12' and python_version < '3.13'  # (Noble) Mostly to have a wheel package
+Pillow==11.1.0 ; python_version >= '3.13'  # (Noble) Mostly to have a wheel package
+polib==1.1.1
+psutil==5.9.0 ; python_version <= '3.10' 
+psutil==5.9.4 ; python_version > '3.10' and python_version < '3.12' 
+psutil==5.9.8 ; python_version >= '3.12' # (Noble) Mostly to have a wheel package
+psycopg2==2.9.2 ; python_version == '3.10' # (Jammy)
+psycopg2==2.9.5 ; python_version == '3.11'
+psycopg2==2.9.9 ; python_version >= '3.12' and python_version < '3.13' # (Noble)
+psycopg2==2.9.10 ; python_version >= '3.13' # (Trixie)
+pyopenssl==21.0.0 ; python_version < '3.12'
+pyopenssl==24.1.0 ; python_version >= '3.12' # (Noble) min 23.2.0, pinned for compatibility with cryptography==42.0.8 and security patches
+PyPDF2==1.26.0 ; python_version <= '3.10'
+PyPDF2==2.12.1 ; python_version > '3.10' and python_version < '3.13' # (Noble and below)
+PyPDF==5.4.0 ; python_version >= '3.13' # (Trixie)
+pypiwin32 ; sys_platform == 'win32'
+pyserial==3.5
+python-dateutil==2.8.1 ; python_version < '3.11'
+python-dateutil==2.8.2 ; python_version >= '3.11'
+python-ldap==3.4.0 ; sys_platform != 'win32' and python_version < '3.12' # min version = 3.2.0 (Focal with security backports)
+python-ldap==3.4.4 ; sys_platform != 'win32' and python_version >= '3.12'  # (Noble) Mostly to have a wheel package
+python-stdnum==1.17 ; python_version < '3.11'  # (jammy)
+python-stdnum==1.19 ; python_version >= '3.11'
+pytz  # no version pinning to avoid OS perturbations
+pyusb==1.2.1
+qrcode==7.3.1 ; python_version < '3.11'  # (jammy)
+qrcode==7.4.2 ; python_version >= '3.11'
+reportlab==3.6.8 ; python_version <= '3.10'
+reportlab==3.6.12 ; python_version > '3.10' and python_version < '3.12'
+reportlab==4.1.0 ; python_version >= '3.12' # (Noble) Mostly to have a wheel package
+requests==2.25.1 ;  python_version < '3.11' # versions < 2.25 aren't compatible w/ urllib3 1.26. Bullseye = 2.25.1. min version = 2.22.0 (Focal)
+requests==2.31.0 ; python_version >= '3.11' # (Noble)
+rjsmin==1.1.0 ; python_version < '3.11'  # (jammy)
+rjsmin==1.2.0 ; python_version >= '3.11'
+rl-renderPM==4.0.3 ; sys_platform == 'win32' and python_version >= '3.12'  # Needed by reportlab 4.1.0 but included in deb package
+urllib3==1.26.5 ; python_version < '3.12' # indirect / min version = 1.25.8 (Focal with security backports)
+urllib3==2.0.7  ; python_version >= '3.12'  # (Noble) Compatibility with cryptography
+vobject==0.9.6.1
+Werkzeug==2.0.2 ; python_version <= '3.10' 
+Werkzeug==2.2.2 ; python_version > '3.10' and python_version < '3.12'
+Werkzeug==3.0.1 ; python_version >= '3.12'  # (Noble) Avoid deprecation warnings
+xlrd==1.2.0 ; python_version < '3.12'  # (jammy)
+xlrd==2.0.1 ; python_version >= '3.12'
+XlsxWriter==3.0.2 ; python_version < '3.12'  # (jammy)
+XlsxWriter==3.1.9 ; python_version >= '3.12'
+xlwt==1.3.0
+zeep==4.1.0 ; python_version < '3.11'  # (jammy)
+zeep==4.2.1 ; python_version >= '3.11' and python_version < '3.13'
+zeep==4.3.1 ; python_version >= '3.13'
+
+# === account-financial-tools/ ===
 # generated from manifests external_dependencies
-astor
-dataclasses
-mako
-odoorpc
-openpyxl
+freezegun
+numpy-financial<=1.0.0
+numpy>=1.15
+python-dateutil
+
+# === account-fiscal-rule/ ===
+# generated from manifests external_dependencies
+Avalara
+
+# === account-invoicing/ ===
+# generated from manifests external_dependencies
 openupgradelib
-# sentry_sdk>=1.17.0
+
+# === account-payment/ ===
+# generated from manifests external_dependencies
+num2words
+
+# === bank-payment/ ===
 # generated from manifests external_dependencies
 lxml
-xlrd
-xlsxwriter
+unidecode
+
+# === bank-statement-import/ ===
 # generated from manifests external_dependencies
-# pycups
+cryptography
+ofxparse
+plaid-python
+
+# === bank-statement-reconcile/ ===
+# generated from manifests external_dependencies
+xlrd
+
+# === brand/ ===
+# generated from manifests external_dependencies
+openupgradelib
+
+# === carrier-delivery/ ===
+# generated from manifests external_dependencies
+easypost==7.15.0
+openupgradelib
+roulier
+unidecode
+zeep
+
+# === community-data-files/ ===
+# generated from manifests external_dependencies
+pycountry
+schwifty==2024.4.0
+
+# === connector/ ===
+# generated from manifests external_dependencies
+cachetools
+
+# === connector-interfaces/ ===
+# generated from manifests external_dependencies
+chardet
+cryptography
+pytz
+pyyaml
+
+# === connector-telephony/ ===
+# generated from manifests external_dependencies
+phonenumbers
+
+# === contract/ ===
+# generated from manifests external_dependencies
+python-dateutil
+
+# === edi/ ===
+# generated from manifests external_dependencies
+dateparser
+factur-x
+ovh
+phonenumbers
+pymupdf
+pypdf
+pypdf>=3.1.0
+regex
+
+# === geospatial/ ===
+# generated from manifests external_dependencies
+geojson
+shapely
+
+# === hr/ ===
+# generated from manifests external_dependencies
+python-dateutil
+
+# === hr-timesheet/ ===
+# generated from manifests external_dependencies
+freezegun
+
+# === l10n-spain/ ===
+# generated from manifests external_dependencies
+chardet
+deepdiff<8
+pycountry
+pycryptodome
+requests
+suds-py3
+unidecode
+xmlsig
+zeep
+
+# === l10n-usa/ ===
+# generated from manifests external_dependencies
+ach
+python-stdnum
+
+# === maintainer-quality-tools/ ===
 simplejson
 pyserial
 pyopenssl>=16.2.0
@@ -24,124 +227,111 @@ six
 # Supports code-block for module/README.rst
 # More info about: https://github.com/OCA/maintainer-quality-tools/issues/568
 pygments
-# generated from manifests external_dependencies
-cryptography
-# generated from manifests external_dependencies
-freezegun
-python-dateutil
 
-# generated from manifests external_dependencies
-pycountry
-# generated from manifests external_dependencies
-python-dateutil
-# generated from manifests external_dependencies
-cachetools
-# The officially supported versions of the following packages are their
-# python3-* equivalent distributed in Ubuntu 22.04 and Debian 11
-Babel==2.9.1  # min version = 2.6.0 (Focal with security backports)
-chardet==4.0.0
-cryptography==3.4.8
-decorator==4.4.2
-docutils==0.16
-ebaysdk==2.1.5
-freezegun==0.3.11; python_version < '3.8'
-freezegun==0.3.15; python_version >= '3.8'
-gevent==1.5.0 ; python_version == '3.7'
-gevent==20.9.0 ; python_version > '3.7' and python_version <= '3.9'
-gevent==21.8.0 ; python_version > '3.9' and python_version <= '3.10'  # (Jammy)
-gevent==22.10.2; python_version > '3.10'
-greenlet==0.4.15 ; python_version == '3.7'
-greenlet==0.4.17 ; python_version > '3.7' and python_version <= '3.9'
-greenlet==1.1.2 ; python_version  > '3.9' and python_version <= '3.10'  # (Jammy)
-greenlet==2.0.2 ; python_version > '3.10'
-idna==2.10
-Jinja2==2.11.3 ; python_version <= '3.10'  # min version = 2.10.1 (Focal - with security backports)
-Jinja2==3.1.2 ; python_version > '3.10'
-libsass==0.20.1
-lxml==4.6.5 ; python_version <= '3.10'  # min version = 4.5.0 (Focal - with security backports)
-lxml==4.9.2 ; python_version > '3.10'
-MarkupSafe==1.1.1 ; python_version <= '3.10'
-MarkupSafe==2.1.2 ; python_version > '3.10'
-num2words==0.5.9
-ofxparse==0.19; python_version <= '3.9'
-ofxparse==0.21; python_version > '3.9'  # (Jammy)
-passlib==1.7.4 # min version = 1.7.2 (Focal with security backports)
-Pillow==9.0.1 ; python_version <= '3.10'  # min version = 7.0.0 (Focal with security backports)
-Pillow==9.4.0 ; python_version > '3.10'
-polib==1.1.0
-psutil==5.8.0 ; python_version <= '3.10' 
-psutil==5.9.4 ; python_version > '3.10' 
-psycopg2==2.7.7 ; sys_platform != 'win32' and python_version < '3.8'
-psycopg2==2.8.6 ; sys_platform != 'win32' and python_version >= '3.8'and python_version <= '3.10'
-psycopg2==2.8.6 ; sys_platform == 'win32' and python_version < '3.10'
-psycopg2==2.9.5 ; python_version > '3.10' or ( sys_platform == 'win32' and python_version == '3.10')
-pydot==1.4.2
-pyopenssl==20.0.1
-PyPDF2==1.26.0 ; python_version <= '3.10'
-PyPDF2==2.12.1 ; python_version > '3.10'
-#PyPDF2
-pypiwin32 ; sys_platform == 'win32'
-pyserial==3.5
-python-dateutil==2.8.1
-python-ldap==3.4.0 ; sys_platform != 'win32'  # min version = 3.2.0 (Focal with security backports)
-python-stdnum==1.16
-pytz==2021.1
-pyusb==1.0.2 ; python_version <= '3.10'
-pyusb==1.2.1 ; python_version > '3.10'
-qrcode==6.1
-reportlab==3.5.59 ; python_version <= '3.10'  # version < 3.5.54 are not compatible with Pillow 8.1.2 and 3.5.59 is bullseye
-reportlab==3.6.12 ; python_version > '3.10'
-requests==2.25.1 # versions < 2.25 aren't compatible w/ urllib3 1.26. Bullseye = 2.25.1. min version = 2.22.0 (Focal)
-urllib3==1.26.5 # indirect / min version = 1.25.8 (Focal with security backports)
-vobject==0.9.6.1
-Werkzeug==0.16.1 ; python_version <= '3.9'
-Werkzeug==2.0.2 ; python_version > '3.9'  # (Jammy)
-xlrd==1.1.0; python_version < '3.8'
-xlrd==1.2.0; python_version >= '3.8'
-XlsxWriter==1.1.2
-xlwt==1.3.*
-zeep==4.0.0
+# === multi-store/ ===
+
+# === openupgrade/ ===
 # generated from manifests external_dependencies
 openupgradelib
+
+# === partner-contact/ ===
 # generated from manifests external_dependencies
-xlrd
+email-validator
+
+# === product-attribute/ ===
 # generated from manifests external_dependencies
-python-dateutil
-vcrpy
+openupgradelib
+
+# === queue/ ===
 # generated from manifests external_dependencies
 requests
+
+# === reporting-engine/ ===
 # generated from manifests external_dependencies
+mock
+openpyxl
+py3o.formats
+py3o.template
+
+# === report-print-send/ ===
 # generated from manifests external_dependencies
-bravado_core
-jsonschema<4
-swagger_spec_validator
+pycups
+
+# === sale-workflow/ ===
 # generated from manifests external_dependencies
+openupgradelib
+
+# === server-backend/ ===
 # generated from manifests external_dependencies
-pymssql<=2.2.5
+mysqlclient
+pymssql<=2.2.5 ; python_version <= '3.10'
+pymssql<=2.2.8 ; python_version > '3.10'
 sqlalchemy
+vobject
+
+# === server-env/ ===
 # generated from manifests external_dependencies
-chardet
 cryptography
-qrcode
-requests
-unidecode
-xmlsig
-xmltodict
-zeep
+
+# === server-tools/ ===
+# generated from manifests external_dependencies
+cryptography
+dataclasses
+odoo_test_helper
+odoorpc
+openpyxl
+openupgradelib
+paramiko<4.0.0
+pygount
+pysftp
+sentry_sdk>=2.0.0,<=2.22.0
+unittest-xml-reporting
+
+# === server-ux/ ===
+# generated from manifests external_dependencies
+openupgradelib
+pdf2image
+pyzbar
+
+# === smile-addons/ ===
+
+
+# === social/ ===
+# generated from manifests external_dependencies
+cairosvg
+lottie
+python-telegram-bot
+requests_toolbelt
+
+# === stock-logistics-barcode/ ===
 # generated from manifests external_dependencies
 python-barcode
+
+# === stock-logistics-warehouse/ ===
 # generated from manifests external_dependencies
-ofxparse
-chardet
-cryptography==3.4.8
-deepdiff
-pycountry
-pycryptodome
-qrcode
-requests
-requests_pkcs12
-suds-py3
-unidecode
-xmlsig
-xmltodict
-zeep
+openupgradelib
+
+# === stock-logistics-workflow/ ===
+# generated from manifests external_dependencies
+openupgradelib
+xlrd
+
+# === storage/ ===
+# generated from manifests external_dependencies
+boto3
+fsspec>=2024.5.0
+fsspec>=2025.0.0
+fsspec>=2025.3.0
+fsspec[s3]
+msgraphfs
+paramiko
+pyftpdlib
+python_slugify
+webdav4[fsspec]
+
+# === web/ ===
+# generated from manifests external_dependencies
+beautifulsoup4
+bokeh==3.6.3
+mpld3==0.5.10
+
