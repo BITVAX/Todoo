@@ -250,19 +250,10 @@
 	path = business-requirement
 	url = https://github.com/OCA/business-requirement.git
 	branch = 18.0
-[submodule "connector-magento-php-extension"]
-	path = connector-magento-php-extension
-	url = https://github.com/OCA/connector-magento-php-extension.git
-[submodule "maintainer-quality-tools"]
-	path = maintainer-quality-tools
-	url = https://github.com/OCA/maintainer-quality-tools.git
 [submodule "maintainer-tools"]
 	path = maintainer-tools
 	url = https://github.com/OCA/maintainer-tools.git
 	branch = master
-[submodule "odoo-sphinx-autodoc"]
-	path = odoo-sphinx-autodoc
-	url = https://github.com/OCA/odoo-sphinx-autodoc.git
 [submodule "runbot-addons"]
 	path = runbot-addons
 	url = https://github.com/OCA/runbot-addons.git
