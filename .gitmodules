@@ -347,10 +347,6 @@
 	path = multi-store
 	url = https://github.com/ingadhoc/multi-store.git
 	branch = 18.0
-[submodule "pos-addons"]
-	path = pos-addons
-	url = https://github.com/itpp-labs/pos-addons.git
-	branch = 18.0
 [submodule "smile-addons"]
 	path = smile-addons
 	url = https://github.com/BITVAX/smile-addons.git
