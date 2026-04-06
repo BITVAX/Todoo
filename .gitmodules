@@ -64,7 +64,7 @@
 	branch = 18.0
 [submodule "connector-ecommerce"]
 	path = connector-ecommerce
-	url = https://github.com/OCA/connector-ecommerce.git
+	url = https://github.com/BITVAX/connector-ecommerce.git
 	branch = 18.0
 [submodule "project"]
 	path = project
@@ -388,7 +388,7 @@
 	branch = 18.0
 [submodule "dms"]
 	path = dms
-	url = https://github.com/OCA/dms.git
+	url = https://github.com/BITVAX/dms.git
 	branch = 18.0
 [submodule "account-reconcile"]
 	path = account-reconcile
