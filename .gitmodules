@@ -1,7 +1,3 @@
-[submodule "connector-prestashop"]
-	path = connector-prestashop
-	url = https://github.com/OCA/connector-prestashop.git
-	branch = 18.0
 [submodule "connector-magento"]
 	path = connector-magento
 	url = https://github.com/BITVAX/connector-magento.git
@@ -69,10 +65,6 @@
 [submodule "project"]
 	path = project
 	url = https://github.com/BITVAX/project.git
-	branch = 18.0
-[submodule "project-reporting"]
-	path = project-reporting
-	url = https://github.com/OCA/project-reporting.git
 	branch = 18.0
 [submodule "product-variant"]
 	path = product-variant
@@ -178,10 +170,6 @@
 	path = stock-logistics-reporting
 	url = https://github.com/OCA/stock-logistics-reporting.git
 	branch = 18.0
-[submodule "account-consolidation"]
-	path = account-consolidation
-	url = https://github.com/OCA/account-consolidation.git
-	branch = 18.0
 [submodule "stock-logistics-tracking"]
 	path = stock-logistics-tracking
 	url = https://github.com/OCA/stock-logistics-tracking.git
@@ -246,45 +234,9 @@
 	path = event
 	url = https://github.com/OCA/event.git
 	branch = 18.0
-[submodule "business-requirement"]
-	path = business-requirement
-	url = https://github.com/OCA/business-requirement.git
-	branch = 18.0
-[submodule "maintainer-tools"]
-	path = maintainer-tools
-	url = https://github.com/OCA/maintainer-tools.git
-	branch = master
-[submodule "runbot-addons"]
-	path = runbot-addons
-	url = https://github.com/OCA/runbot-addons.git
-	branch = 18.0
 [submodule "vertical-association"]
 	path = vertical-association
 	url = https://github.com/OCA/vertical-association.git
-	branch = 18.0
-[submodule "vertical-travel"]
-	path = vertical-travel
-	url = https://github.com/OCA/vertical-travel.git
-	branch = 18.0
-[submodule "vertical-hotel"]
-	path = vertical-hotel
-	url = https://github.com/OCA/vertical-hotel.git
-	branch = 18.0
-[submodule "vertical-edition"]
-	path = vertical-edition
-	url = https://github.com/OCA/vertical-edition.git
-	branch = 18.0
-[submodule "vertical-construction"]
-	path = vertical-construction
-	url = https://github.com/OCA/vertical-construction.git
-	branch = 18.0
-[submodule "vertical-agriculture"]
-	path = vertical-agriculture
-	url = https://github.com/OCA/vertical-agriculture.git
-	branch = 18.0
-[submodule "vertical-abbey"]
-	path = vertical-abbey
-	url = https://github.com/OCA/vertical-abbey.git
 	branch = 18.0
 [submodule "queue"]
 	path = queue
@@ -330,10 +282,6 @@
 	path = server-env
 	url = https://github.com/OCA/server-env.git
 	branch = 18.0
-[submodule "sync-addons"]
-	path = sync-addons
-	url = https://github.com/itpp-labs/sync-addons.git
-	branch = 18.0
 [submodule "multi-store"]
 	path = multi-store
 	url = https://github.com/ingadhoc/multi-store.git
@@ -358,33 +306,13 @@
 	path = server-brand
 	url = https://github.com/OCA/server-brand.git
 	branch = 18.0
-[submodule "wms"]
-	path = wms
-	url = https://github.com/OCA/wms.git
-	branch = 18.0
 [submodule "brand"]
 	path = brand
 	url = https://github.com/OCA/brand.git
 	branch = 18.0
-[submodule "vertical-rental"]
-	path = vertical-rental
-	url = https://github.com/OCA/vertical-rental.git
-	branch = 18.0
-[submodule "fleet"]
-	path = fleet
-	url = https://github.com/OCA/fleet.git
-	branch = 18.0
-[submodule "stock-logistics-availability"]
-	path = stock-logistics-availability
-	url = https://github.com/OCA/stock-logistics-availability.git
-	branch = 18.0
 [submodule "calendar"]
 	path = calendar
 	url = https://github.com/OCA/calendar.git
-	branch = 18.0
-[submodule "sign"]
-	path = sign
-	url = https://github.com/OCA/sign.git
 	branch = 18.0
 [submodule "dms"]
 	path = dms
@@ -406,14 +334,6 @@
 	path = automation
 	url = https://github.com/OCA/automation.git
 	branch = 18.0
-[submodule "connector-cmis"]
-	path = connector-cmis
-	url = https://github.com/OCA/connector-cmis.git
-	branch = 18.0
-[submodule "connector-jira"]
-	path = connector-jira
-	url = https://github.com/OCA/connector-jira.git
-	branch = 18.0
 [submodule "credit-control"]
 	path = credit-control
 	url = https://github.com/OCA/credit-control.git
@@ -425,6 +345,10 @@
 [submodule "field-service"]
 	path = field-service
 	url = https://github.com/OCA/field-service.git
+	branch = 18.0
+[submodule "fleet"]
+	path = fleet
+	url = https://github.com/OCA/fleet.git
 	branch = 18.0
 [submodule "hr-attendance"]
 	path = hr-attendance
@@ -470,10 +394,6 @@
 	path = product-configurator
 	url = https://github.com/OCA/product-configurator.git
 	branch = 18.0
-[submodule "project-agile"]
-	path = project-agile
-	url = https://github.com/OCA/project-agile.git
-	branch = 18.0
 [submodule "rest-framework"]
 	path = rest-framework
 	url = https://github.com/OCA/rest-framework.git
@@ -485,10 +405,6 @@
 [submodule "sale-channel"]
 	path = sale-channel
 	url = https://github.com/OCA/sale-channel.git
-	branch = 18.0
-[submodule "sale-prebook"]
-	path = sale-prebook
-	url = https://github.com/OCA/sale-prebook.git
 	branch = 18.0
 [submodule "sale-promotion"]
 	path = sale-promotion
@@ -506,6 +422,14 @@
 	path = shift-planning
 	url = https://github.com/OCA/shift-planning.git
 	branch = 18.0
+[submodule "sign"]
+	path = sign
+	url = https://github.com/OCA/sign.git
+	branch = 18.0
+[submodule "stock-logistics-availability"]
+	path = stock-logistics-availability
+	url = https://github.com/OCA/stock-logistics-availability.git
+	branch = 18.0
 [submodule "stock-logistics-interfaces"]
 	path = stock-logistics-interfaces
 	url = https://github.com/OCA/stock-logistics-interfaces.git
@@ -521,8 +445,4 @@
 [submodule "web-api-contrib"]
 	path = web-api-contrib
 	url = https://github.com/OCA/web-api-contrib.git
-	branch = 18.0
-[submodule "website-cms"]
-	path = website-cms
-	url = https://github.com/OCA/website-cms.git
 	branch = 18.0
