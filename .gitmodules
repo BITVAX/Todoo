@@ -188,7 +188,7 @@
 	branch = 18.0
 [submodule "stock-logistics-barcode"]
 	path = stock-logistics-barcode
-	url = https://github.com/OCA/stock-logistics-barcode.git
+	url = https://github.com/BITVAX/stock-logistics-barcode.git
 	branch = 18.0
 [submodule "account-fiscal-rule"]
 	path = account-fiscal-rule
