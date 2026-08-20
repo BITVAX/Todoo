@@ -446,3 +446,11 @@
 	path = web-api-contrib
 	url = https://github.com/OCA/web-api-contrib.git
 	branch = 18.0
+[submodule "edi-framework"]
+	path = edi-framework
+	url = https://github.com/OCA/edi-framework.git
+	branch = 18.0
+[submodule "stock-logistics-shopfloor"]
+	path = stock-logistics-shopfloor
+	url = https://github.com/OCA/stock-logistics-shopfloor.git
+	branch = 18.0
