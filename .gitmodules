@@ -84,7 +84,7 @@
 	branch = 18.0
 [submodule "pos"]
 	path = pos
-	url = https://github.com/OCA/pos.git
+	url = https://github.com/BITVAX/pos.git
 	branch = 18.0
 [submodule "stock-logistics-workflow"]
 	path = stock-logistics-workflow
@@ -428,7 +428,7 @@
 	branch = 18.0
 [submodule "stock-logistics-availability"]
 	path = stock-logistics-availability
-	url = https://github.com/OCA/stock-logistics-availability.git
+	url = https://github.com/BITVAX/stock-logistics-availability.git
 	branch = 18.0
 [submodule "stock-logistics-interfaces"]
 	path = stock-logistics-interfaces
